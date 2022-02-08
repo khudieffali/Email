@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header start  */
+#header .logo{
+    padding: 10px 0px 20px 0px;
+}
+#header .logo .logo-all .logo-top-text h1{
+    color:darkblue;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#header .logo .logo-all .logo-bottom-text h6{
+    color: coral;
+    font-weight: 700;
+    margin: 0;
+    line-height: 0px;
+}
+/* Header End  */
+
+/* Email start  */
+#email .all-address{
+   margin: 10px 20px 0px 20px;
+   background-color: rgb(9, 9, 156);
+
+}
+#email .all-address .text-email{
+    margin-top: 20px;
+    padding: 20px 20px 15px 20px;
+    color: white;
+}
+#email .all-address .text-email .container .top-text{
+    position: relative;
+}
+#email .all-address .text-email .container .center-text h5{
+   letter-spacing: 2px;
+}
+#email .all-address .text-email .container .top-text::before{
+   content:"";
+   position: absolute;
+   left: 0%;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 30%;
+   height: 1px;
+   background-color: white;
+}
+#email .all-address .text-email .container .top-text::after{
+    content:"";
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    height: 1px;
+    background-color: white;
+ }
+ /* Email End  */
+
+ /* Verify Start  */
+
+ #verify .all-verify{
+     margin: 0 20px;
+ }
+ #verify .all-verify .ready-text{
+     padding: 25px 0;
+     background-color: rgb(252, 249, 249) ;
+ }
+ #verify .all-verify .ready-text .container .top-ready-text{
+     padding: 20px 20px;
+ }
+ #verify .all-verify .ready-text .container .top-ready-text p{
+    color: black;
+ }
+ #verify .all-verify .ready-text .container .bottom-btn button{
+    padding: 10px 40px;
+    background-color:#e46905;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#verify .all-verify .ready-text .container .bottom-ready-text {
+padding: 30px 0px;
+}
+ /* Verify End  */
+
+ /* Touch Start  */
+ #touch .all-touch{
+     background-color: rgb(211, 210, 210);
+     margin: 0 20px;
+ }
+ #touch .all-touch .company .container .top-touch-text h5{
+     color: blue;
+     font-weight: 700;
+     margin-bottom: 5px;
+     margin-top: 30px;
+ }
+ #touch .all-touch .company .container .top-touch-text p{
+     color: black;
+     margin-top: 5px;
+ }
+
+ #touch .all-touch .company .container .center-touch ul li{
+     list-style: none;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background-color: black;
+     margin: 0px 8px 10px 8px;
+ }
+ #touch .all-touch .company .container .center-touch ul li a i{
+     color: white;
+     font-size: 20px;
+     line-height: 1.5;
+ }
+
+ /* Touch End  */
+
+ /* Footer Start  */
+ #footer .reserved{
+     padding: 20px 0px;
+     margin: 0px 20px 20px 20px;
+     background-color: rgb(9, 9, 156);
+     color: white;
+    
+ }
+ #footer .reserved p{
+     margin: 0%;
+ }
+ /* Footer End  */
+
+
+
+
+
+/* 576px */
+ @media (max-width:576px){
+    #email .all-address .text-email .container .top-text i{
+        font-size: 22px;
+    }
+    #email .all-address .text-email .container .center-text h5{
+        font-size: 13px;
+    }
+    #email .all-address .text-email .container .bottom-text h2{
+        font-size: 22px;
+    }
+ }
+ /* 350px */
+ @media (max-width:350px){
+   /* Email Start  */
+    #email .all-address .text-email .container .center-text h5{
+        font-size: 10px;
+    }
+    #email .all-address .text-email .container .bottom-text h2{
+        font-size: 15px;
+    }
+    /* Email End  */
+    /* Verify Start  */
+    #verify .all-verify .ready-text .container .top-ready-text{
+        padding: 20px 15px;
+    }
+    #verify .all-verify .ready-text .container .top-ready-text p{
+         font-size: 13px;        
+     }
+     /* Verify End  */
+     
+     /* Footer Start  */
+     #footer .reserved p{
+         font-size: 12px;
+    }
+    /* Footer End  */
+ }
